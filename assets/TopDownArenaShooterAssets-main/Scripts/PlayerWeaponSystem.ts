@@ -1,0 +1,15 @@
+import { _decorator, Component, Node, Prefab } from 'cc';
+const { ccclass, property } = _decorator;
+
+@ccclass('PlayerWeaponSystem')
+export class PlayerWeaponSystem extends Component {
+   public initailizeWeapon(bulletPrefab: Prefab, bulletContainer: Node): void{
+
+   }
+
+   public processFiring(isFiring: boolean, currentAngle: number, dt: number): void {}
+
+   public triggerSingleShot(currentAngle: number): void {}
+}
+
+
