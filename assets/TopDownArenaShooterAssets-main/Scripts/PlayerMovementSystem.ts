@@ -14,7 +14,14 @@ export class PlayerMovementSystem extends Component {
     }
 
     public updateRotation(angleDegrees:number): void {}
-    public updateMovement(MoveDir: Vec2): void {}
+    public updateMovement(MoveDir: Vec2): void {
+        if (!this.rigidBody) return
+
+        let currentVelocity = new Vec2
+        Vec2.multiplyScalar(currentVelocity, MoveDir, this.speed)
+
+        this.rigidBody.linearVelocity = currentVelocity
+    }
 }
 
 
