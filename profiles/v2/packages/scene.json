@@ -68,10 +68,88 @@
         "height": 609
       },
       "scale": 0.8458333333333334
+    },
+    "dff99c39-4647-4588-8a6a-85d5c46af9aa": {
+      "position": {
+        "x": 639.9999999999999,
+        "y": 360,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 5.684341886080802e-14,
+        "width": 1080.1777777777777,
+        "height": 607.6
+      },
+      "scale": 0.8438888888888889
+    },
+    "b6f2d8fb-4991-4ea6-b5b3-688e401fcd9d": {
+      "position": {
+        "x": 640,
+        "y": 360,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 615,
+        "y": 335,
+        "width": 606.2,
+        "height": 606.2
+      },
+      "scale": 12.124
+    },
+    "dbb64d81-cb50-4870-af0a-02278c19c066": {
+      "position": {
+        "x": 571.3003488949753,
+        "y": 515.6649216728542,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": -942.1460045758481,
+        "y": -493.2993139743615,
+        "width": 1162,
+        "height": 654
+      },
+      "scale": 0.9911154079297316
     }
   },
   "camera-uuids": [
-    "f8a06d89-08dd-4705-82db-228c05f0d80a"
+    "f8a06d89-08dd-4705-82db-228c05f0d80a",
+    "dff99c39-4647-4588-8a6a-85d5c46af9aa",
+    "b6f2d8fb-4991-4ea6-b5b3-688e401fcd9d",
+    "dbb64d81-cb50-4870-af0a-02278c19c066"
   ],
   "camera": {
     "color": [
@@ -93,5 +171,9 @@
     "iso": 0,
     "aperture": 19,
     "shutter": 7
+  },
+  "scene_view": {
+    "isSceneLightOn": true,
+    "output_device": "__default_design__"
   }
 }
