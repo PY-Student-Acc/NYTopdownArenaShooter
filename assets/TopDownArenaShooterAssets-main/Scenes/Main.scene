@@ -1384,7 +1384,7 @@
     "_enabled": true,
     "__prefab": null,
     "tag": 0,
-    "_group": 1,
+    "_group": 64,
     "_density": 1,
     "_sensor": false,
     "_friction": 0.2,
@@ -1513,7 +1513,7 @@
     "_enabled": true,
     "__prefab": null,
     "tag": 0,
-    "_group": 1,
+    "_group": 64,
     "_density": 1,
     "_sensor": false,
     "_friction": 0.2,
@@ -1642,7 +1642,7 @@
     "_enabled": true,
     "__prefab": null,
     "tag": 0,
-    "_group": 1,
+    "_group": 64,
     "_density": 1,
     "_sensor": false,
     "_friction": 0.2,
@@ -1771,7 +1771,7 @@
     "_enabled": true,
     "__prefab": null,
     "tag": 0,
-    "_group": 1,
+    "_group": 64,
     "_density": 1,
     "_sensor": false,
     "_friction": 0.2,
@@ -2062,8 +2062,8 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 0,
+      "y": 0
     },
     "_id": "88Tv2Y9uNDVbwK55zJgQJS"
   },
@@ -2080,7 +2080,7 @@
     "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
-    "_group": 1,
+    "_group": 2,
     "_type": 2,
     "_allowSleep": true,
     "_gravityScale": 1,
@@ -2092,7 +2092,7 @@
       "y": 0
     },
     "_angularVelocity": 0,
-    "_fixedRotation": false,
+    "_fixedRotation": true,
     "_id": "4fd+Hz5S1DBZHTOKXYTbHU"
   },
   {
@@ -2106,17 +2106,17 @@
     "_enabled": true,
     "__prefab": null,
     "tag": 0,
-    "_group": 1,
+    "_group": 2,
     "_density": 1,
     "_sensor": false,
     "_friction": 0.2,
     "_restitution": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -59.900000000000006,
-      "y": -7.7
+      "x": 0,
+      "y": 0
     },
-    "_radius": 62.9,
+    "_radius": 20,
     "_id": "6fXIbys6tA0KOfkoM2YkOc"
   },
   {
