@@ -9,7 +9,7 @@ export enum FireMode {
 export interface BarrelConfig {
     pos: Vec2,
     angle: number,
-    size: Number
+    size: number
 }
 
 export interface WeaponConfig {

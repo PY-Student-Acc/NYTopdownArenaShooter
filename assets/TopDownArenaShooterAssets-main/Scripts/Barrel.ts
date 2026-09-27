@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec2 } from 'cc';
+import { _decorator, Component, math, Node, NodePool, Vec2 } from 'cc';
 import { Bullet } from './Bullet';
 const { ccclass, property } = _decorator;
 
@@ -6,7 +6,7 @@ const { ccclass, property } = _decorator;
 export class Barrel extends Component {
    
     private offsetAgnel: number = 0
-    private bulletScale: number = 1.0
+    private bulletScale: number = 1
 
     public initialize(localPos: Vec2, angleOffset: number, sizeModifier: number) {
         this.node.setPosition(localPos.x, localPos.y)
