@@ -70,6 +70,7 @@ export class PlayerInputSystem extends Component {
             this.isShooting = false;
             log("Input System recieved: Trigger released")
         }}
+
     public handleMouseMove(event: EventMouse, camera: Camera, playerPos: Readonly<Vec3>): number {
         return this.calculateRotationAngle(event, camera, playerPos)
     }
